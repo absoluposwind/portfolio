@@ -1,0 +1,310 @@
+@charset "utf-8";
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* { 
+margin: 0; padding: 0; 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+ul{list-style: none;}
+a{text-decoration: none;color: #000;}
+
+body{height: 3500px;}
+
+/* 헤더 */
+.header{
+    width: 100%;
+    height: 248px;
+}
+.header .topmenu{
+    width: 1920px;
+    height: 46px;
+    background-color: #f6faec;
+}
+.header .topmenu ul{
+    float: left;
+    text-align: center;
+    padding-left: 65%;
+}
+.header .topmenu ul li{
+    float: left;
+    font-size: 11px;
+    line-height: 46px;
+    height: 46px;
+    padding-left: 10px;
+}
+
+/* 로고 */
+.header .logo{
+    width: 1200px;
+    height: 151px;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 151px;
+}
+.header .logo a img{
+    width: 270px;
+    height: 60px;
+    position: relative;
+    float: left;
+    padding-left: 450px;
+    /* display: inline-block; */
+    margin-top: 45.5px;
+}
+.header .logo .logo-search{
+    float: right;
+}
+.header .logo input{
+    height: 15px;
+    line-height: 151px;
+}
+.header .logo .logo-search img{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    line-height: 151px;
+    cursor: pointer;
+}
+
+/* 네비 */
+.header .nav{
+    width: 1920px;
+    height: 54px;
+    border: 1px solid #ebebeb;
+}
+.header .nav .nav-wrap{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.header .nav .nav-wrap ul{
+    overflow: hidden;
+}
+.header .nav .nav-wrap ul li{
+    float: left;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header .nav .nav-wrap ul li:hover{
+    display: block;
+}
+
+.content{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.content .item-content{
+    width: 520px;
+    height: 520px;
+    float: left;
+    margin-left: 80px;
+}
+.content .item-content img{
+    width: 520px;
+    height: 520px;
+}
+.content .item-script{
+    width: 520px;
+    height: 600px;
+    float: left;
+    margin-left: 80px;
+}
+
+.content .item-script .item-head{
+    width: 520px;
+    height: 50px;
+}
+.content .item-script .item-head h1{
+    float: left;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 50px;
+}
+.content .item-script .item-head img{
+    float: right;
+    margin-left: 10px;
+    line-height: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+    }
+.content .item-script .item-head hr{
+    width: 520px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #dfdfdf;
+}
+.content .item-script .item-script-content{
+    width: 100%;
+    height: 480px;
+    float: left;
+}
+.content .item-script .item-script-content .item{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
+.content .item-script .item-script-content p{
+    font-size: 13px;
+    font-weight: 600;
+    /* line-height: 25px; */
+}
+
+.content .item-script .item-script-content .item-main-txt{
+    font-size: 14px;
+    margin-right: 40px;
+    float: left;
+    color: #333333;
+    width: 100px;
+    font-weight: normal;
+    /* line-height: normal; */
+}
+
+
+.content .item-script .item-script-content .item .option{
+    width: 100px;
+    height: 10px;
+    float: left;
+}
+
+.content .item-script .item-script-content .item.option .option-text{
+    width: 140px;
+    line-height: 50px;
+    float: left;
+    font-size: 15px;
+
+}
+
+.content .item-script .item-script-content .item select{
+    width: 250px;
+    height: 25px;
+    margin-top: 13px;
+    float: left;
+}
+
+.content .item-script .item-buy{
+    width: 520px;
+    height: 50px;
+    float: left;
+    margin: 0 auto;
+}
+.content .item-script .item-buy .item{
+    width: 170px;
+    height: 50px;
+    margin: 0 auto;
+    float: left;
+}
+.content .item-script .item-buy .item input{
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin: 0 auto;
+    border: 2px solid #ebebeb;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #161616;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.content .item-script .item-buy .item input:hover{
+    border: 2px solid #333333;
+}
+
+.content .item-script .item-buy .item.buy-now input{
+    width: 180px;
+    height: 50px;
+    float: left;
+    margin: 0 auto;
+    border: 2px solid #333333;
+    background-color: #333333;
+    color: #fff;
+    transition: 0.1s;
+}
+.content .item-script .item-buy .item.buy-now input:hover{
+    border: 2px solid #333333;
+    background-color: #fff;
+    color: #161616;
+}
+
+.content2{
+    width: 1200px;
+    height: 5000px;
+    margin: 0 auto;
+}
+
+.content2 .item-about{
+    width: 100%;
+    height: 40px;
+    float: left;
+}
+.content2 .item-about ul{
+    width: 1200px;
+    height: 40px;
+    text-align: center;
+    margin: 0 400px;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+}
+.content2 .item-about ul li{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    margin: 0px;
+}
+.content2 .item-about ul li input{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.content2 .item-about ul li input.on
+{
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.content2 .item-detail-img{
+    width: 1200px;
+    height: 6000px;
+    float: left;
+}
+.content2 .item-detail-img .item-img{
+    width: 995px;
+    height: 5500px;
+    margin: 0 auto;
+}
+.content2 .item-detail-img img{
+    width: 995px;
+    margin: 0 auto;
+}
+
+.content3{
+    width: 1200px;
+    height: 5000px;
+    margin: 0 auto;
+}
+.content3 .content3-wrap{}
+.content3 .content3-wrap .delivery-inf{}
+.content3 .content3-wrap .delivery-inf .di-title{
+    
+}
+.content3 .content3-wrap .delivery-inf .di-company{
+
+}
+.content3 .content3-wrap .claim-inf{
+
+}
